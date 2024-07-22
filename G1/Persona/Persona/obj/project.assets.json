@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\adona\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\Persona\\Persona\\Persona.csproj",
+      "projectUniqueName": "D:\\UNIVERSIDAD\\Ciclos\\Ciclo 02-2024\\DSE\\Lab\\Lab 1\\Persona\\Persona\\Persona.csproj",
       "projectName": "Persona",
-      "projectPath": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\Persona\\Persona\\Persona.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\Persona\\Persona\\obj\\",
+      "projectPath": "D:\\UNIVERSIDAD\\Ciclos\\Ciclo 02-2024\\DSE\\Lab\\Lab 1\\Persona\\Persona\\Persona.csproj",
+      "packagesPath": "C:\\Users\\adona\\.nuget\\packages\\",
+      "outputPath": "D:\\UNIVERSIDAD\\Ciclos\\Ciclo 02-2024\\DSE\\Lab\\Lab 1\\Persona\\Persona\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -57,17 +51,10 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -76,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

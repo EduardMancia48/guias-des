@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj": {}
+    "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj": {
+    "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
+        "projectUniqueName": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
         "projectName": "MVCPeliculas",
-        "projectPath": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
-        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\MVCPeliculas\\MVCPeliculas\\obj\\",
+        "projectPath": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
+        "packagesPath": "C:\\Users\\Luz\\.nuget\\packages\\",
+        "outputPath": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -43,16 +43,26 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -66,12 +76,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

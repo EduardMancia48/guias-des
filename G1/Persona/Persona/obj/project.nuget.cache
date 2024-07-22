@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/TgKnwJHoE=",
+  "dgSpecHash": "kMOhEFyKhgWNxoxs18O4yXKzmdLm8b252DJYahKttj6rrbYDyHsEKz41c3lxmpP02e0lk3/Q8wpFpuj9AjboVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eduar\\Downloads\\DES GUIA 1\\Persona\\Persona\\Persona.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\eduar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\UNIVERSIDAD\\Ciclos\\Ciclo 02-2024\\DSE\\Lab\\Lab 1\\Persona\\Persona\\Persona.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

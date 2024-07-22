@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCPeliculas
-build_property.ProjectDir = C:\Users\eduar\Downloads\DES GUIA 1\MVCPeliculas\MVCPeliculas\
+build_property.ProjectDir = D:\DSE\DSE\Lab 1\MVCPeliculas\MVCPeliculas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
