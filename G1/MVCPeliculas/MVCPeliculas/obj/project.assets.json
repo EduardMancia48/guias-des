@@ -7844,11 +7844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
+      "projectUniqueName": "D:\\DSE\\MIO DES\\guias-des\\G1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
       "projectName": "MVCPeliculas",
-      "projectPath": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
+      "projectPath": "D:\\DSE\\MIO DES\\guias-des\\G1\\MVCPeliculas\\MVCPeliculas\\MVCPeliculas.csproj",
       "packagesPath": "C:\\Users\\Luz\\.nuget\\packages\\",
-      "outputPath": "D:\\DSE\\DSE\\Lab 1\\MVCPeliculas\\MVCPeliculas\\obj\\",
+      "outputPath": "D:\\DSE\\MIO DES\\guias-des\\G1\\MVCPeliculas\\MVCPeliculas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luz\\AppData\\Roaming\\NuGet\\NuGet.Config",

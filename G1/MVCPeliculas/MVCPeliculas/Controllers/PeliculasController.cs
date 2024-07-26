@@ -18,30 +18,6 @@ namespace MVCPeliculas.Controllers
             _context = context;
         }
 
-        // GET: Peliculas
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Peliculas.ToListAsync());
-        }
-
-        // GET: Peliculas/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var peliculas = await _context.Peliculas
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (peliculas == null)
-            {
-                return NotFound();
-            }
-
-            return View(peliculas);
-        }
-
         // GET: Peliculas/Create
         public IActionResult Create()
         {
@@ -64,8 +40,6 @@ namespace MVCPeliculas.Controllers
             return View(peliculas);
         }
 
-
-
         // GET: Peliculas/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -79,7 +53,7 @@ namespace MVCPeliculas.Controllers
             {
                 return NotFound();
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "ID", "Nombre", peliculas.GeneroId);
+            ViewBag.Genero = new SelectList(_context.Generos, "ID", "Nombre", peliculas.GeneroId);
             return View(peliculas);
         }
 
@@ -113,14 +87,14 @@ namespace MVCPeliculas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GeneroId"] = new SelectList(_context.Generos, "ID", "Nombre", peliculas.GeneroId);
+            ViewBag.Genero = new SelectList(_context.Generos, "ID", "Nombre", peliculas.GeneroId);
             return View(peliculas);
-
         }
+
         private bool PeliculasExists(int id)
         {
             return _context.Peliculas.Any(e => e.ID == id);
         }
-
     }
 }
+
